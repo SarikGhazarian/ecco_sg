@@ -146,7 +146,7 @@ t5-base:
         - 'wo' #Note that this will be both encoder and decoder layers
     token_prefix: '▁'
     partial_token_prefix: ''
-flan-t5-xxl:
+google/flan-t5-xxl:
     embedding: 'shared.weight'
     type: 'enc-dec'
     activations:
