@@ -64,6 +64,7 @@ class LM(object):
         """
         self.model_name = model_name
         self.model = model
+        print(model)
         if torch.cuda.is_available() and gpu:
             self.model = model.to('cuda')
 
