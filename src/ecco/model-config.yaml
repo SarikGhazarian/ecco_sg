@@ -153,6 +153,13 @@ google/flan-t5-xxl:
         - 'wo' #Note that this will be both encoder and decoder layers
     token_prefix: '▁'
     partial_token_prefix: ''
+google/flan-t5-base:
+    embedding: 'shared.weight'
+    type: 'enc-dec'
+    activations:
+        - 'wo' #Note that this will be both encoder and decoder layers
+    token_prefix: '▁'
+    partial_token_prefix: ''
 bigscience/T0_3B:
     embedding: 'shared.weight'
     type: 'enc-dec'
