@@ -67,8 +67,8 @@ setup(
     install_requires=[
         "transformers ~= 4.2",
         "seaborn ~= 0.11",
-        "scikit-learn~=0.23",
-        "PyYAML~=5.4",
+        "scikit-learn",
+        "PyYAML",
         "captum ~= 0.4"
     ],
     extras_require={
